@@ -121,4 +121,7 @@ class TestCredentials(unittest.TestCase):
       '''
         test_save_credentials method saves credential objects into credential_list
       ''' 
-      self.assertEqual(len(Credentials.generate_Password()),8)  
+      self.assertEqual(len(Credentials.generate_Password()),8) 
+      
+if __name__== '__main__':
+    unittest.main() 
