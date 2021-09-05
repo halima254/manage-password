@@ -20,6 +20,18 @@ class Contact:
         self.user_name = user_name
         self.password= password
 
+    def save_contact(self):
+        '''
+        save contact object into contact list
+        '''
+        Contact.contact_list.append(self)
+
+    def delete_contact(self):
+        '''
+        delete_contact method deletes a saved contact from the contact list
+        '''
+        Contact.contact_list.remove(self)
+        
     
     
     
