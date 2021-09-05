@@ -32,6 +32,11 @@ class Contact:
         '''
         Contact.contact_list.remove(self)
         
+class Credentials():
+    """
+    Create credentials class to help create new objects of credentials
+    """
+    credentials_list = []       
     
     
     
