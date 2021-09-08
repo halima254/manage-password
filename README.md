@@ -18,7 +18,7 @@ This is a python Application that enables a user to log in to their account usin
 <ul> install piperclip at the terminal using the command'$ python3.6 -m pip install pyperclip'. This heps to copy paste items to clip board</ul><br>
 
 At the terminal type:
-<ul>#!/usr/bin/env python3.8 </ul>
+
 <ul>$ chmod +x run.py ; this makes the program excecutable</ul>
 <ul>$ ./run.py : this makes the program run</ul>
 

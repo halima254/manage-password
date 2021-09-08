@@ -15,7 +15,7 @@ class TestContact(unittest.TestCase):
         '''
         Set up method that runs each test cases.
         '''
-        self.new_contact = Contact("halima","2021") # create contact object
+        self.new_contact = Contact("halima","2021") 
 
     def test_init(self):
         '''

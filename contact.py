@@ -48,7 +48,7 @@ class Credentials():
                     a_cont == contact.user_name
         return a_cont    
     
-    
+
     def __init__(self,account,userName, password):
         """
         method that defines user credentials to be stored
@@ -78,11 +78,6 @@ class Credentials():
         for credential in cls.credentials_list:
             if credential.account == account:
                 return credential   
-            
-    @classmethod
-    def copy_password(cls,account):
-        found_credentials = Credentials.find_credential(account)
-        pyperclip.copy(found_credentials.password)
 
     @classmethod
     def if_credential_exist(cls, account):
